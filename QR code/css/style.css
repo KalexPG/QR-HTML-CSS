@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(240, 248, 255);
+}
+
+
+.container{
+    background-color: white;
+    width: 450px;
+    height: 630px;
+    
+    text-align: center;
+    margin: 12% 35% ;
+    border-radius: 30px;
+    
+}
+
+.container img{
+    width: 405px;
+    height: 390px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+
+
+.container p{
+    margin: 20px 50px;
+    color: rgb(160, 157, 155);
+    font-size: 21px;
+}
+
+h2{
+    margin: 15px 20px;
+    color: black;
+    font-size: 33px;
+}
+
+@media (max-width:550px) {
+    .container{
+        margin: 10px  0px 10px 15px;
+    }
+    
+}
